@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Welcome to my page</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;600;700&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+                <a href="cafe.html"><img src="images/logo.png" ></a>
+                <div class="links" id="Link">
+                    <i class="fa fa-times-circle" onclick="hidemenu()"></i>
+                    <ul>
+                        <li><a href="">HOME</a></li>
+                        <li><a href="">ABOUT</a></li>
+                        <li><a href="">GALLERY</a></li>
+            
+                        <li><a href="">CONTACT</a></li>
+                    </ul>
+
+                </div>
+                <i class="fa fa-bars" onclick="showmenu()"></i>
+            </nav>
+        <div class="text">
+            <h1> Coffee World</h1>
+            <p>Life is not better with a cup of coffee.Explore the incredible world of coffee with us.<br>
+                Open up your ideas with a cup of coffee</p>
+            <a href="" class="buton">visit us to know more</a>
+        </div>    
+        </section>
+
+       <!-------- Gallery-------->
+       <section class="house">
+        <h1> Our Coffee House Infrastructure</h1>
+        <p>coffee is a pure arabica with a rare aromatic profile combining smoothness, balance and roundness.<br>
+             It is created by our French coffeeologist Hippolyte Courty, guaranteeing utmost quality at each step, 
+             from the plantation to the cup.</p>
+        <div class="row" background-color: #92a8d1;>
+            <div class="house-col">
+                <img src="images/banglore.png" width="500px" height="350px">
+                <div class="layer">
+                    
+
+                </div>
+            </div>
+            <div class="house-col">
+                <img src="images/Newtown.png" >
+                <div class="layer">
+                    
+
+                </div>
+            </div>
+            <div class="house-col">
+                <img src="images/london.png" >
+                <div class="layer">
+                
+
+                </div>
+            </div>
+
+        </div>
+       </section>
+
+
+    <section class="gallery">
+        <h2>A cup of inspiration to make your day</h2>
+        
+    </section>
+    <marquee class="marq" behavior="scroll" direction="left"  >        
+        <img src="images/img1.jpg" width="200px" height="250px">
+        <img src="images/img2.jpg" width="200px" height="250px">
+        <img src="images/img3.jpg" width="200px" height="250px">
+        <img src="images/img4.jpg" width="200px" height="250px">
+        <img src="images/img5.jpg" width="200px" height="250px">
+        <img src="images/img6.jpg" width="200px" height="250px">
+        <img src="images/img7.jpg" width="200px" height="250px">
+        <img src="images/img8.jpg" width="200px" height="250px">
+        <img src="images/img9.jpg" width="200px" height="250px">
+        <img src="images/img10.jpg" width="200px" height="250px">
+        <img src="images/img11.jpg" width="200px" height="250px">
+    </marquee>
+<!-- The image has scrolling behavior to left -->
+
+<section class="contact">
+    <center>
+    <h1>Follow us here</h1>
+ 
+        <!-- Add font awesome icons -->
+     
+         <i class="fa fa-facebook fa-4x" aria-hidden="true" ></i> 
+         <i class="fa fa-twitter fa-4x" aria-hidden="true"></i> 
+         <i class="fa fa-instagram fa-4x" aria-hidden="true"></i> 
+    </center>
+</section>
+
+       <!--------Script for menu ---------->
+        <script>
+            var Links = document.getElementById("Link");
+            function showmenu()
+            {
+                Links.style.right ="0";
+            }
+
+            function hidemenu()
+            {
+                Links.style.right ="-200px";
+            }
+            
+
+        </script>
+
+
+    </body>
+</html>
