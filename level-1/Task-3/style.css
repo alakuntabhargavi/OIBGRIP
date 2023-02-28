@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+    background-color:cyan;
+    color: #222;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    
+  }
+  
+  .converter h1{
+    padding-left: 120px;
+    
+  }
+  .converter-row {
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(51, 207, 34);
+    border-radius: 500px;
+    padding: 100px 300px;
+}
